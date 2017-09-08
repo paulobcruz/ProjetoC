@@ -1,21 +1,13 @@
-#include <stdio.h>
+#include "lib.h"
 
-float velocidadeMedia(int tempo, float espaco);
-void funcionou();
-void sair();
+
 int main(){
+	float media;
+	media = velocidadeMedia(2,3);
 	funcionou();
+	sair();
 	return 0;
 }
 
-void funcionou(){
-	printf("Funcionou!");
-}
 
-void sair(){
-	exit(0);	
-}
 
-float velocidadeMedia(int tempo, float espaco){
-	return espaco/tempo;
-}
