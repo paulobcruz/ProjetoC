@@ -9,6 +9,7 @@ void sair(){
 }
 
 float velocidadeMedia(int tempo, float espaco){
-	return espaco/tempo;
+	float total = (espaco / tempo);
+	return total;
 }
 

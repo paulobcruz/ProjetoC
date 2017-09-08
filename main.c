@@ -1,5 +1,5 @@
 #include "lib.h"
-
+include "lib2.h"
 
 int main(){
 	float media;
