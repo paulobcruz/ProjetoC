@@ -7,5 +7,5 @@ int main(){
 }
 
 void funcionou(){
-	printf("Funcionou!");
+	printf("Funcionou!2");
 }
